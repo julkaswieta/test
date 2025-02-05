@@ -25,4 +25,4 @@ jobs:
           run: dotnet build ./Test/Test/Test.csproj
           
         - name: Test
-          run: dotnet test ./Test/Test.sln
+          run: dotnet test ./Test/Test.sln 
